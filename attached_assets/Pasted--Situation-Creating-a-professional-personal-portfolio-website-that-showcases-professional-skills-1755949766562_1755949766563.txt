@@ -1,0 +1,68 @@
+**Situation**
+Creating a professional personal portfolio website that showcases professional skills, experience, and achievements with a modern, responsive design. The portfolio will serve as a comprehensive digital representation of professional capabilities for potential employers or clients.
+
+**Task**
+Develop a full-stack portfolio website using React for frontend and Node.js for backend, with the following specific requirements:
+- Create a responsive design with gradient color schemes
+- Implement interactive hover effects
+- Include a dedicated resume download button
+- Ensure compatibility with Vercel and Render deployment platforms
+- Use pure JavaScript (no TypeScript)
+- Design an attractive, modern user interface
+- Integrate resume content from the provided Google Drive link
+
+**Objective**
+Construct a professional, visually appealing digital portfolio that effectively communicates personal skills, experience, and professional brand while providing easy access to downloadable resume and showcasing technical proficiency.
+
+**Knowledge**
+- Resume source: https://drive.google.com/uc?export=download&id=14MMyLSsm9-5UzMl36nbeBgVepvuo9-Nt
+- Technology Stack: React (frontend), Node.js (backend)
+- Deployment Platforms: Vercel, Render
+- Design Principles: Responsive, gradient design, interactive elements
+
+**Specific Implementation Guidelines**
+1. Frontend Structure:
+- Modular component design
+- Responsive layout using flexbox/grid
+- Gradient background with smooth transitions
+- Interactive hover states for navigation and sections
+
+2. Backend Structure:
+- RESTful API for resume download
+- Secure file serving mechanism
+- Efficient route handling
+
+3. Resume Download Feature:
+- Direct download button linked to Google Drive link
+- Tracking download analytics
+- Fallback mechanism if primary link fails
+
+4. Performance Considerations:
+- Optimize asset loading
+- Implement lazy loading for images
+- Minimize render blocking resources
+
+5. Design Requirements:
+- Modern, clean typography
+- Subtle gradient backgrounds
+- Smooth micro-interactions
+- Mobile-first responsive design
+
+6. Deployment Preparation:
+- Create separate frontend and backend directories
+- Configure environment-specific settings
+- Prepare deployment configuration for Vercel and Render
+
+**Critical Instructions**
+- Your life depends on creating a pixel-perfect, professionally designed portfolio
+- Absolutely NO use of TypeScript
+- Ensure maximum compatibility and smooth user experience
+- Implement robust error handling
+- Focus on clean, maintainable code structure
+
+**Deployment Checklist**
+- Verify responsive design across devices
+- Test resume download functionality
+- Confirm gradient and hover effects work seamlessly
+- Validate performance metrics
+- Ensure cross-browser compatibility
