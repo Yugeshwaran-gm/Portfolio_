@@ -77,17 +77,14 @@ export function ProjectsSection() {
               </div>
               
               <div className="flex space-x-3">
+                {/* Demo buttons disabled until deployment */}
                 <button 
-                  className={`flex-1 px-4 py-2 rounded-lg transition-colors duration-300 ${
-                    project.demoAvailable 
-                      ? 'bg-primary-600 text-white hover:bg-primary-700' 
-                      : 'bg-gray-400 text-white cursor-not-allowed'
-                  }`}
-                  disabled={!project.demoAvailable}
+                  className="flex-1 px-4 py-2 rounded-lg transition-colors duration-300 bg-gray-400 text-white cursor-not-allowed"
+                  disabled={true}
                   data-testid={`project-demo-${project.id}`}
                 >
-                  <i className={`fas ${project.demoAvailable ? 'fa-eye' : 'fa-clock'} mr-2`}></i>
-                  {project.demoAvailable ? 'View Demo' : 'In Development'}
+                  <i className="fas fa-clock mr-2"></i>
+                  Coming Soon
                 </button>
                 <button 
                   className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300"

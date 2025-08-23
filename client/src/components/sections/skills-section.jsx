@@ -4,12 +4,12 @@ export function SkillsSection() {
   const [ref, isVisible] = useIntersectionObserver();
 
   const programmingLanguages = [
-    { name: 'JavaScript', icon: 'fab fa-js-square', color: 'text-yellow-500' },
+    { name: 'C', icon: 'fas fa-code', color: 'text-gray-600' },
     { name: 'Python', icon: 'fab fa-python', color: 'text-blue-500' },
     { name: 'Java', icon: 'fab fa-java', color: 'text-red-500' },
-    { name: 'C', icon: 'fas fa-code', color: 'text-gray-600' },
     { name: 'HTML', icon: 'fab fa-html5', color: 'text-orange-500' },
     { name: 'CSS', icon: 'fab fa-css3-alt', color: 'text-blue-600' },
+    { name: 'JavaScript', icon: 'fab fa-js-square', color: 'text-yellow-500' },
   ];
 
   const databases = [

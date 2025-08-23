@@ -25,7 +25,7 @@ export function Footer() {
             <p className="text-gray-400 mb-4">Full Stack Developer passionate about creating innovative web applications.</p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/yugeshwarangm" 
+                href="https://github.com/Yugeshwaran-gm" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -34,7 +34,7 @@ export function Footer() {
                 <i className="fab fa-github text-xl"></i>
               </a>
               <a 
-                href="https://linkedin.com/in/yugeshwaran-g" 
+                href="https://www.linkedin.com/in/yugeshwaran-g/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -43,7 +43,16 @@ export function Footer() {
                 <i className="fab fa-linkedin text-xl"></i>
               </a>
               <a 
-                href="mailto:yugeshwarangm@example.com" 
+                href="https://leetcode.com/u/YUGESHWARAN-G/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+                data-testid="footer-leetcode"
+              >
+                <i className="fas fa-code text-xl"></i>
+              </a>
+              <a 
+                href="mailto:yugeshwarangm@gmail.com" 
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 data-testid="footer-email"
               >
@@ -76,10 +85,10 @@ export function Footer() {
                 <i className="fas fa-phone mr-2"></i>+91 9514955425
               </li>
               <li data-testid="footer-email-text">
-                <i className="fas fa-envelope mr-2"></i>yugeshwarangm@example.com
+                <i className="fas fa-envelope mr-2"></i>yugeshwarangm@gmail.com
               </li>
               <li data-testid="footer-github-text">
-                <i className="fab fa-github mr-2"></i>yugeshwarangm
+                <i className="fab fa-github mr-2"></i>Yugeshwaran-gm
               </li>
             </ul>
           </div>

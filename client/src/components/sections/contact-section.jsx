@@ -69,9 +69,9 @@ export function ContactSection() {
   const contactInfo = [
     {
       label: 'Email',
-      value: 'yugeshwarangm@example.com',
+      value: 'yugeshwarangm@gmail.com',
       icon: 'fas fa-envelope',
-      link: 'mailto:yugeshwarangm@example.com',
+      link: 'mailto:yugeshwarangm@gmail.com',
     },
     {
       label: 'Phone',
@@ -81,23 +81,28 @@ export function ContactSection() {
     },
     {
       label: 'GitHub',
-      value: 'yugeshwarangm',
+      value: 'Yugeshwaran-gm',
       icon: 'fab fa-github',
-      link: 'https://github.com/yugeshwarangm',
+      link: 'https://github.com/Yugeshwaran-gm',
     },
     {
       label: 'LinkedIn',
       value: 'YUGESHWARAN G',
       icon: 'fab fa-linkedin',
-      link: 'https://linkedin.com/in/yugeshwaran-g',
+      link: 'https://www.linkedin.com/in/yugeshwaran-g/',
+    },
+    {
+      label: 'LeetCode',
+      value: 'YUGESHWARAN-G',
+      icon: 'fas fa-code',
+      link: 'https://leetcode.com/u/YUGESHWARAN-G/',
     },
   ];
 
   const socialLinks = [
-    { platform: 'GitHub', icon: 'fab fa-github', link: 'https://github.com/yugeshwarangm' },
-    { platform: 'LinkedIn', icon: 'fab fa-linkedin', link: 'https://linkedin.com/in/yugeshwaran-g' },
-    { platform: 'Twitter', icon: 'fab fa-twitter', link: 'https://twitter.com/yugeshwarangm' },
-    { platform: 'Instagram', icon: 'fab fa-instagram', link: 'https://instagram.com/yugeshwarangm' },
+    { platform: 'GitHub', icon: 'fab fa-github', link: 'https://github.com/Yugeshwaran-gm' },
+    { platform: 'LinkedIn', icon: 'fab fa-linkedin', link: 'https://www.linkedin.com/in/yugeshwaran-g/' },
+    { platform: 'LeetCode', icon: 'fas fa-code', link: 'https://leetcode.com/u/YUGESHWARAN-G/' },
   ];
 
   return (

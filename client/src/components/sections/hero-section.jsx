@@ -75,13 +75,16 @@ export function HeroSection() {
 
           {/* Social Links */}
           <div className="mt-12 flex justify-center space-x-6">
-            <a href="https://github.com/yugeshwarangm" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-github">
+            <a href="https://github.com/Yugeshwaran-gm" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-github">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/yugeshwaran-g" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-linkedin">
+            <a href="https://www.linkedin.com/in/yugeshwaran-g/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-linkedin">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="mailto:yugeshwarangm@example.com" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-email">
+            <a href="https://leetcode.com/u/YUGESHWARAN-G/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-leetcode">
+              <i className="fas fa-code"></i>
+            </a>
+            <a href="mailto:yugeshwarangm@gmail.com" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-email">
               <i className="fas fa-envelope"></i>
             </a>
             <a href="tel:+919514955425" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-phone">
