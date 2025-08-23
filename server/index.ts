@@ -1,6 +1,14 @@
+import 'dotenv/config'; // <-- Add this line at the very top
+
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+
+// Log environment variable loading
+console.log("Loaded environment variables:");
+console.log("GMAIL_USER:", process.env.GMAIL_USER ? "[set]" : "[not set]");
+console.log("GMAIL_PASS:", process.env.GMAIL_PASS ? "[set]" : "[not set]");
+console.log("PORT:", process.env.PORT || "5000");
 
 const app = express();
 app.use(express.json());
@@ -63,8 +71,8 @@ app.use((req, res, next) => {
   const port = parseInt(process.env.PORT || '5000', 10);
   server.listen({
     port,
-    host: "0.0.0.0",
-    reusePort: true,
+    host: "127.0.0.1",
+    // reusePort: true,
   }, () => {
     log(`serving on port ${port}`);
   });
