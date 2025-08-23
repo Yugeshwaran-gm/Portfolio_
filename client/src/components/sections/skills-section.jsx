@@ -20,8 +20,8 @@ export function SkillsSection() {
   const tools = [
     { name: 'Git', icon: 'fab fa-git-alt', color: 'text-orange-500' },
     { name: 'GitHub', icon: 'fab fa-github', color: 'text-gray-800 dark:text-white' },
-    { name: 'VS Code', icon: 'fas fa-code', color: 'text-blue-500' },
-    { name: 'POSTMAN', icon: 'fas fa-paper-plane', color: 'text-orange-500' },
+    { name: 'VS Code', icon: 'fab fa-microsoft', color: 'text-blue-500' },
+    { name: 'Postman', icon: 'fas fa-rocket', color: 'text-orange-500' },
     { name: 'MongoDB Compass', icon: 'fas fa-compass', color: 'text-green-500' },
     { name: 'Docker Hub', icon: 'fab fa-docker', color: 'text-blue-500' },
   ];

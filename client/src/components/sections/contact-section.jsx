@@ -94,7 +94,7 @@ export function ContactSection() {
     {
       label: 'LeetCode',
       value: 'YUGESHWARAN-G',
-      icon: 'fas fa-code',
+      icon: 'fas fa-terminal',
       link: 'https://leetcode.com/u/YUGESHWARAN-G/',
     },
   ];
@@ -102,7 +102,7 @@ export function ContactSection() {
   const socialLinks = [
     { platform: 'GitHub', icon: 'fab fa-github', link: 'https://github.com/Yugeshwaran-gm' },
     { platform: 'LinkedIn', icon: 'fab fa-linkedin', link: 'https://www.linkedin.com/in/yugeshwaran-g/' },
-    { platform: 'LeetCode', icon: 'fas fa-code', link: 'https://leetcode.com/u/YUGESHWARAN-G/' },
+    { platform: 'LeetCode', icon: 'fas fa-terminal', link: 'https://leetcode.com/u/YUGESHWARAN-G/' },
   ];
 
   return (

@@ -49,7 +49,7 @@ export function Footer() {
                 className="text-gray-400 hover:text-white transition-colors duration-300"
                 data-testid="footer-leetcode"
               >
-                <i className="fas fa-code text-xl"></i>
+                <i className="fas fa-terminal text-xl"></i>
               </a>
               <a 
                 href="mailto:yugeshwarangm@gmail.com" 

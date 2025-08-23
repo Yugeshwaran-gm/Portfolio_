@@ -24,7 +24,7 @@ export function AboutSection() {
           <div ref={rightRef} className={`slide-in-right ${rightVisible ? 'is-visible' : ''}`}>
             <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">Professional Summary</h3>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              Aspiring Full Stack Developer with a strong foundation in the MERN stack and hands-on experience building real-world projects. Passionate about clean code, learning new technologies, and developing scalable web applications.
+              Aspiring Full Stack Developer with a strong foundation in the MERN stack and hands-on experience building real-world projects. Currently expanding my expertise in Python development and automation. Passionate about clean code, learning new technologies, and developing scalable web applications.
             </p>
             
             <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">Career Objective</h3>

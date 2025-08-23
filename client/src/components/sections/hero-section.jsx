@@ -82,7 +82,7 @@ export function HeroSection() {
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="https://leetcode.com/u/YUGESHWARAN-G/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-leetcode">
-              <i className="fas fa-code"></i>
+              <i className="fas fa-terminal"></i>
             </a>
             <a href="mailto:yugeshwarangm@gmail.com" className="text-white hover:text-yellow-300 transition-colors duration-300 text-2xl" data-testid="social-email">
               <i className="fas fa-envelope"></i>
