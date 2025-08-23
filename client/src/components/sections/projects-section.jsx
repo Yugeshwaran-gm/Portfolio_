@@ -14,6 +14,7 @@ export function ProjectsSection() {
       technologies: ['React', 'Node.js', 'MongoDB', 'JWT'],
       techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200', 'bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200', 'bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200'],
       demoAvailable: true,
+      github: 'https://github.com/Yugeshwaran-gm/Job-Portal-',
     },
     {
       id: 'timetable-reminder',
@@ -25,6 +26,7 @@ export function ProjectsSection() {
       technologies: ['Python', 'MongoDB', 'SMTP', 'Automation'],
       techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200', 'bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200'],
       demoAvailable: true,
+      github: 'https://github.com/Yugeshwaran-gm/timetable_remainder_python',
     },
     {
       id: 'auction-system',
@@ -36,6 +38,7 @@ export function ProjectsSection() {
       technologies: ['React.js', 'Node.js', 'Socket.IO', 'REST API'],
       techColors: ['bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200', 'bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200', 'bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200', 'bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200'],
       demoAvailable: false,
+      github: 'https://github.com/Yugeshwaran-gm/Auction-System-MERN',
     },
   ];
 
@@ -86,12 +89,16 @@ export function ProjectsSection() {
                   <i className="fas fa-clock mr-2"></i>
                   Coming Soon
                 </button>
-                <button 
-                  className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300"
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300 flex items-center justify-center"
                   data-testid={`project-github-${project.id}`}
+                  aria-label="View on GitHub"
                 >
                   <i className="fab fa-github"></i>
-                </button>
+                </a>
               </div>
             </div>
           ))}

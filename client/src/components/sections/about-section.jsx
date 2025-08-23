@@ -15,9 +15,9 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div ref={leftRef} className={`slide-in-left ${leftVisible ? 'is-visible' : ''}`}>
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+              src="/attached_assets/1755958039244.jpg" 
               alt="Professional developer workspace" 
-              className="rounded-2xl shadow-2xl w-full h-auto transform hover:scale-105 transition-transform duration-300"
+              className="rounded-2xl shadow-2xl w-full max-w-[350px] h-auto mx-auto transform hover:scale-105 transition-transform duration-300"
             />
           </div>
 
