@@ -16,9 +16,11 @@ export function EducationSection() {
       period: '2021 - 2024',
       cgpa: '7.61',
     },
+    
   ];
 
   const certifications = [
+    { name: 'GeeksForGeeks Python Programming', year: '2025', icon: 'fas fa-certificate', color: 'text-yellow-600 dark:text-yellow-400', bgColor: 'bg-yellow-100 dark:bg-yellow-900' },
     { name: 'TCS iON Career Edge', year: '2025', icon: 'fas fa-certificate', color: 'text-blue-600 dark:text-blue-400', bgColor: 'bg-blue-100 dark:bg-blue-900' },
     { name: 'Deloitte Forage Simulation', year: '2025', icon: 'fas fa-certificate', color: 'text-green-600 dark:text-green-400', bgColor: 'bg-green-100 dark:bg-green-900' },
     { name: 'NPTEL IIoT', year: '72% - 2025', icon: 'fas fa-certificate', color: 'text-orange-600 dark:text-orange-400', bgColor: 'bg-orange-100 dark:bg-orange-900' },
